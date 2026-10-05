@@ -1,0 +1,20 @@
+# ambiente virtual local
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# artefato gerado ao rodar train.py localmente dentro de API-dolar
+# (o modelo da imagem é sempre o do estágio train do Dockerfile)
+API-dolar/models/
+
+# sistema operacional / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/

@@ -1,0 +1,25 @@
+{
+  "ticker": "BRL=X",
+  "model": "StandardScaler + Ridge(alpha=1.0)",
+  "target": "log-retorno do dia seguinte",
+  "n_lags": 5,
+  "features": [
+    "r_t-4",
+    "r_t-3",
+    "r_t-2",
+    "r_t-1",
+    "r_t"
+  ],
+  "closes_esperados": 6,
+  "dados_ate": "2026-10-02",
+  "linhas_treino_final": 3053,
+  "metricas_teste": {
+    "periodo": "2024-05-24 -> 2026-10-01",
+    "naive_mae": 0.03290589442018603,
+    "ridge_mae": 0.032598395288289735,
+    "naive_rmse": 0.04481985388857022,
+    "ridge_rmse": 0.044343419328892686,
+    "ridge_acerto_direcao": 0.559016393442623
+  },
+  "sklearn_version": "1.6.1"
+}
