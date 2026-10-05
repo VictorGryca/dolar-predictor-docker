@@ -160,3 +160,16 @@ show, /health ta funcionando.
 
 sobre os resultados do modelo:
 
+  "metricas_teste": {
+    "periodo": "2024-05-24 -> 2026-10-01",
+    "naive_mae": 0.03290589442018603,
+    "ridge_mae": 0.032598395288289735,
+    "naive_rmse": 0.04481985388857022,
+    "ridge_rmse": 0.044343419328892686,
+    "ridge_acerto_direcao": 0.559016393442623
+  },
+
+
+  temos resultados levemente melhores que o naive, tanto no MAE quanto no RMSE, mas muuuito levemente melhores. quase nao da pra considrar que sao modelos diferentes. o interessante mesmo vai ser ver o fechamento de hoje. 
+
+  
